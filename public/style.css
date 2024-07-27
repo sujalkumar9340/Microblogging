@@ -1,0 +1,44 @@
+   *{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+ 
+.home{
+  display:flex;
+  align-items:center;
+    justify-content: center;
+   height: 100vh;
+}
+ 
+.icon{
+    font-family:Roboto; 
+     font-weight: 400;
+      font-size: 50px;
+     color: #1DA1F2;
+}
+.row-2 p{
+    font-family: Poppins;
+   font-weight: 500;
+}
+.login{
+  display:flex;
+  align-items:center;
+    justify-content: center;
+   height: 100vh;
+   
+}
+.register{
+  display:flex;
+  align-items:center;
+    justify-content: center;
+   height: 100vh;
+}
+#offcanvasExample{
+  width:20vw;
+  background-color: white;
+}
+/* #offcanvasExampleLabel{
+ padding-left: 23px;
+} */

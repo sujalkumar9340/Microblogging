@@ -1,0 +1,36 @@
+<%- include('../partials/header.ejs') %>
+
+<button class="btn btn-primary m-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  <i class="fa-solid fa-bars"></i>
+</button>
+ <span id="x-logo"><i class=" ps-5  fa-brands fa-x-twitter"></i></span>
+<div class="offcanvas offcanvas-start " id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><i class=" ps-5  fa-brands fa-x-twitter"></i></h5>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      <ul id="sidebarlist">
+        
+        <li class="mb-5 mt-2"> <a href="/tweets"><i class="fa-solid fa-house"><span class="ps-2 mb-5">home</span></i></a></li>
+      
+        <li class="mb-5">  <i class="fa-solid fa-magnifying-glass pd-s-2"></i>  <span class="ps-2">search</span></li>
+        <li class="mb-5"> <a href="/profile"><i class="fa-solid fa-user"></i><span class="ps-2">profile</span></a></li>
+        <li > <a href="/logout"><i class="fa-solid fa-arrow-right-to-bracket pd-s-2"></i>  <span class="ps-2">logout</span></a> </li>
+     
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+li{
+  list-style: none;
+}
+#x-logo{
+  font-size: 23px;
+}
+</style>
+
+
+<%- include('../partials/footer.ejs') %>

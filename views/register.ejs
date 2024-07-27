@@ -1,0 +1,46 @@
+<%- include('partials/header.ejs') %>
+
+<div class="container register">
+  <div class=" box">
+    <div class="row row-1">
+      <div class="col-12 text-center">
+        <h1 class="icon mb-3">
+          <i class="fa-brands fa-x-twitter"></i
+          ><span class="logo"> twitter</span>
+        </h1>
+      </div>
+    </div>
+    <div class="row row-2">
+      <div class="col text-center">
+        <h5>Register</h5>
+        <h5>Create a new account</h5>
+      </div>
+    </div>
+    <form  action="register" method="post" class="row  justify-content-center">
+      <div class="col-md-7">
+        <label for="inputEmail4" class="form-label "><i class="fa-regular fa-user"></i> Name</label>
+        <input type="text" class="form-control" id="inputEmail4" name="name" />
+      </div>
+      <div class="col-md-7">
+        <label for="inputEmail4" class="form-label mt-2"><i class="fa-regular fa-envelope"></i> Email</label>
+        <input type="email" class="form-control" id="inputEmail4" name="username" />
+      </div>
+      <div class="col-md-7">
+        <label for="inputPassword4" class="form-label mt-2"><i class="fa-solid fa-key mt-2"></i> Password</label>
+        <input type="password" class="form-control" id="inputPassword4" name="password" />
+      </div>
+      <div class="col-md-7 d-flex justify-content-end mt-3">
+        <button type="submit" class="btn btn-primary">Register</button>
+      </div>
+    </form>
+    <div class=" row justify-content-center">
+     <div class="col-7">
+      <p> <a href="/login">
+        Already a user? Click here to login.
+      </a></p>
+     </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer.ejs')%>
